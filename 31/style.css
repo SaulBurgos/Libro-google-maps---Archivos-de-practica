@@ -1,0 +1,58 @@
+
+
+ #map {
+	height:450px;
+	width:100%;
+}
+
+#container {
+	width:960px;
+	height:450px;
+	margin:auto;
+	
+}
+
+#StationList {
+	height: 450px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 2px;
+	margin-right: 2px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#listOverlay {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#listOverlay input, textarea {
+	width: 150px;
+}
+
+#listOverlay li {
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding: 2px;
+	width: 175px;
+	cursor:pointer;
+}
+
+#container  > div {
+	float:left; 
+}
+
+#container > div:first-child {
+	width:20%;
+}
+
+#container > div:last-child {
+	width:70%;
+}
+
+#searchInput {
+	width: 400px;
+}
+

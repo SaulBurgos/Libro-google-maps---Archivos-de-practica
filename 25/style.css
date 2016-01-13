@@ -1,0 +1,30 @@
+
+
+ #map {
+	height:450px;
+	width:100%;
+}
+
+#container {
+	width:960px;
+	height:450px;
+	margin:auto;
+	
+}
+
+#container  > div {
+	float:left; 
+}
+
+#container > div:first-child {
+	width:20%;
+}
+
+#container > div:last-child {
+	width:70%;
+}
+
+#searchInput {
+	width: 400px;
+}
+
